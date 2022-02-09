@@ -1,0 +1,31 @@
+.card {
+  width: 300px;
+  height: 400px;
+
+  li {
+    list-style-type: none;
+  }
+
+  .info {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5px;
+
+    .favorite {
+      background: none;
+      color: inherit;
+      border: none;
+      padding: 0;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+    }
+
+    .star {
+      font-size: 25px;
+      color: wheat;
+    }
+  }
+}
