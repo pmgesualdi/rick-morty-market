@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto',sans-serif;
+
+  .tab {
+    margin: 40px;
+
+    // Source:  https://fdossena.com/?p=html5cool/buttons/i.frag
+    button {
+      display: inline-block;
+      padding: 1.65em 6.2em;
+      border: 0.1em solid #FFFFFF;
+      margin: 0 0.3em 0.3em 0;
+      border-radius: 0.12em;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-weight: 300;
+      font-size: 0.8em;
+      color: #000000ce;
+      text-align: center;
+      transition: all 0.2s;
+      cursor: pointer;
+    }
+
+    button:hover {
+      color: #000000;
+      background-color: #FFFFFF;
+    }
+  }
+}

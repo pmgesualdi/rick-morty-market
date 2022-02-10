@@ -20,6 +20,7 @@ interface Info {
 }
 
 export interface Character {
+  id: number
   image: string
   name: string
   favorite: boolean

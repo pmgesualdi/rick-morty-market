@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useRecoilState } from 'recoil';
 import { fetchCharacters } from '../../providers/characters';
-import { characterState, infoState } from '../../state/marketplace';
+import { characterState, infoState } from '../../state/recoil';
 import { CharacterData } from './interfaces';
 
 export const useFetchCharacters = () => {
@@ -24,7 +24,9 @@ export const useFetchCharacters = () => {
 
     setInfo(data.data.characters.info)
     // TODO: Resolve typing issue
-    setCharacters(data.data.characters.results as any)
+    const characters = data.data.characters.results.map((char, i) => ({ ...char, id: i }))
+
+    setCharacters(characters as any)
   }, [data, setInfo, setCharacters])
 
   return {
