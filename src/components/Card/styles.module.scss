@@ -1,17 +1,31 @@
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid lightgray;
+  border-radius: 5px;
   width: 300px;
   height: 400px;
+
+  img:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  p:hover {
+    font-weight: 600;
+  }
 
   li {
     list-style-type: none;
   }
 
   .info {
-    position: relative;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 0 5px;
+    color: gray;
 
     .favorite {
       background: none;
@@ -21,6 +35,11 @@
       font: inherit;
       cursor: pointer;
       outline: inherit;
+      margin-top: 10px;
+
+      @media only screen and (max-width: 600px) {
+        margin-top: 5px;
+      }
     }
 
     .star {
