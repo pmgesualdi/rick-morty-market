@@ -1,4 +1,4 @@
-import { API_URL } from "../constants/providers"
+import { API_URL } from "../constants"
 import { getCharacters } from "../queries/getCharacters"
 
 // Source: https://stepzen.com/docs/using-graphql/making-queries-with-fetch

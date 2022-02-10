@@ -1,6 +1,6 @@
 // Source: https://rickandmortyapi.com/documentation
 
-export const getCharacters = (pageNumber: number = 1) => `
+export const getCharacters = (pageNumber: number = Math.floor(Math.random() * 11)) => `
   {
     characters(page: ${pageNumber}) {
       info {
