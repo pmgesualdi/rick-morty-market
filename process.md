@@ -1,5 +1,5 @@
 Day 1 - 08/02
-19:40 hs
+19:40 - 20:40 hs
 Start integrating with rick and morty gql api
 Create generic container component to fetch data and render without style
 Create folder structure and typing for fetch
@@ -7,7 +7,7 @@ Create folder structure and typing for fetch
 20:40 - 20:50 hs
 Break
 
-21:50 hs
+20:50 - 21:50 hs
 Add initial recoil implementation
 Add initial styles and component separation
 Start polishing UI elements and setting up favorite action
