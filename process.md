@@ -18,3 +18,9 @@ Break
 22 - 22:30 hs
 Add favorite boolean click action
 Update list and card layout
+
+Day 2 10-/02
+17 - 18:30hs
+Implement loading card animation
+Fix favorite action switch character position
+Update Container, List, and Card stlyes
