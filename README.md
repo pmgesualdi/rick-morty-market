@@ -1,3 +1,6 @@
+# Demo info
+This project was built under the premise of spending no more than 4 hours on it, everything including API and library investigation and adoption, up to component creation, was done under that timeframe
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
